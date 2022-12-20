@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import { getPostDetails, getPosts } from '../../services'
 
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentForm, Loader } from '../../components'
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentForm, Loader } from '../../components/index.jsx'
 
 const PostDetails = ({ post }) => {
 
